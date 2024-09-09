@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<style>
+    table, td{
+        border: 2px solid black;
+        border-collapse: collapse;
+    }
+    td{
+        padding: 20px;
+    }
+
+    img{
+        height: 50px;
+        width: 50px;
+    }
+    thead{
+        background-color: aqua;
+        font-size: 30px;
+        font-weight: 800;
+    }
+</style>
+<body>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <td>ID</td>
+                    <td>Title</td>
+                    <td>Price</td>
+                    <td>Category</td>
+                    <td>Image</td>
+                </tr>
+                <tbody id="tbody">
+
+                </tbody>
+            </thead>
+        </table>
+    </div>
+    <script src = './app.js'></script>
+</body>
+</html>
